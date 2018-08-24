@@ -12,7 +12,9 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
+  /**
+   * Comentario correcto.
+   */
   public final String greet(String someone) {
     return String.format("Carlos que nota dos, %s!", someone);
   }
